@@ -15,3 +15,8 @@ We have 5 tables in the Instacart market data.
    info about each department.
 6. ic_aisles
    info about each aisle in a grocery store.
+
+## Table of Contents
+These are the steps where I analyze the data.
+
+- [Overview of the tables](explore.sql)
