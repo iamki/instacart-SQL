@@ -23,4 +23,4 @@ These are the steps where I analyze the data.
    In this step, I just want to explore each tables and just to get the idea of the tables.
 
 >[!NOTE]
->I am also using this small project to get used to GitHub.
+>I am also using this small project to get used to GitHub. :monocle_face:
