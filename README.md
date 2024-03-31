@@ -19,4 +19,5 @@ We have 5 tables in the Instacart market data.
 ## Table of Contents
 These are the steps where I analyze the data.
 
-- [Overview of the tables](explore.sql)
+1. [Overview of the tables](explore.sql)
+   In this step, I just want to explore each tables and just to get the idea of the tables.
