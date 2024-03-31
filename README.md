@@ -21,6 +21,9 @@ These are the steps where I analyze the data.
 
 1. [Overview of the tables](explore.sql)
    In this step, I just want to explore each tables and just to get the idea of the tables.
+2. [Analysis of the data](analysis.md)
+   Let's start get into the data more!
+
 
 >[!NOTE]
 >I am also using this small project to get used to GitHub. :monocle_face:
