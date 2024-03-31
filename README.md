@@ -21,3 +21,6 @@ These are the steps where I analyze the data.
 
 1. [Overview of the tables](explore.sql)
    In this step, I just want to explore each tables and just to get the idea of the tables.
+
+>[!NOTE]
+>I am also using this small project to get used to GitHub.
