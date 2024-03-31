@@ -1,5 +1,5 @@
 # Data Analysis Using Instacart data From Kaggle
-As one of the tutorial in DataLemur, we are required to analyse Instacart data taken from Kaggle.
+As one of the tutorial in [DataLemur](https://datalemur.com/sql-tutorial/instacart-sql-data-analytics-case-study), we are required to analyse Instacart data taken from Kaggle.
 
 ## Introduction
 Instacart is a grocery delivery and pickup service. Users can select items from local grocery stores through the Instacart app or website, and then either have them delivered to their doorstep by a personal shopper or prepared for pickup at the store.
@@ -20,9 +20,9 @@ We have 5 tables in the Instacart market data.
 These are the steps where I analyze the data.
 
 1. [Overview of the tables](explore.sql)
-   In this step, I just want to explore each tables and just to get the idea of the tables.
+In this step, I just want to explore each tables and just to get the idea of the tables.
 2. [Analysis of the data](analysis.md)
-   Let's start get into the data more!
+Let's start get into the data more!
 
 
 >[!NOTE]
