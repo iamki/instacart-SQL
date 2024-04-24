@@ -19,12 +19,12 @@ We have 5 tables in the Instacart market data.
 ## Table of Contents
 These are the steps where I indulge myself into the data.
 
-1. [Overview of the tables](explore.sql)
-In this step, I just want to explore each tables and just to get the idea of the tables.
-2. [Data Prepartion](queries/import-data.sql)
+1. [Data Prepartion](queries/import-data.sql)
 Practising on creating database using MySQL Workbench.
-3. [Data Exploring](queries/exploring.sql)
-To build the problem statement, let's first explore the data!
+2. [Overview of the tables](queries/exploring.sql)
+In this step, I just want to explore each tables and just to get the idea of the tables.
+3. [Data Exploring](analysis.md)
+To build the problem statement, let's first understand and compare the two quarters, applying descriptive statistics.
 
 
 
