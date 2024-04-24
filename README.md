@@ -17,12 +17,15 @@ We have 5 tables in the Instacart market data.
    info about each aisle in a grocery store.
 
 ## Table of Contents
-These are the steps where I analyze the data.
+These are the steps where I indulge myself into the data.
 
 1. [Overview of the tables](explore.sql)
 In this step, I just want to explore each tables and just to get the idea of the tables.
-2. [Analysis of the data](analysis.md)
-Let's start get into the data more!
+2. [Importing data into MySQL Workbench](queries/import-data.sql)
+Practising on creating database using MySQL Workbench.
+3. [Analysis of the data](queries/exploring.sql)
+Let's explore the data!
+
 
 
 >[!NOTE]
