@@ -21,10 +21,10 @@ These are the steps where I indulge myself into the data.
 
 1. [Overview of the tables](explore.sql)
 In this step, I just want to explore each tables and just to get the idea of the tables.
-2. [Importing data into MySQL Workbench](queries/import-data.sql)
+2. [Data Prepartion](queries/import-data.sql)
 Practising on creating database using MySQL Workbench.
-3. [Analysis of the data](queries/exploring.sql)
-Let's explore the data!
+3. [Data Exploring](queries/exploring.sql)
+To build the problem statement, let's first explore the data!
 
 
 
