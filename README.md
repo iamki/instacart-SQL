@@ -1,5 +1,5 @@
 # Data Analysis Using Instacart data From Kaggle
-As one of the tutorial in [DataLemur](https://datalemur.com/sql-tutorial/instacart-sql-data-analytics-case-study), we are required to analyse Instacart data taken from Kaggle.
+As one of the tutorial in [DataLemur](https://datalemur.com/sql-tutorial/instacart-sql-data-analytics-case-study), we are required to analyse Instacart data taken from [Kaggle](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data).
 
 ## Introduction
 Instacart is a grocery delivery and pickup service. Users can select items from local grocery stores through the Instacart app or website, and then either have them delivered to their doorstep by a personal shopper or prepared for pickup at the store.
