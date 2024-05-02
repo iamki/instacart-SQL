@@ -2,7 +2,7 @@ In this section, I am interested to see what stands out in each quarter (Q2 & Q3
 
 What I found is that some products from ic_order_products_curr & ic_order_products_prior does not exists in ic_products. Therefore, for this case, I will ignore those.
 
-1. What is the Top 5 most popular products in Q3 ?
+1. What is the Top 5 most popular products in Q3 ? (not counting add to cart)
 
 ```sql
 SELECT curr.product_id, product_name, department, aisle
@@ -25,7 +25,7 @@ LIMIT 5;
 |21903	|Organic Baby Spinach|	produce|	packaged vegetables fruits|
 |47629	|Large Lemon|	produce|	fresh fruits|
 
-2. What is the Top 5 most popular products in Q2?
+2. What is the Top 5 most popular products in Q2? (not counting add to cart)
 ```sql
 SELECT prior.product_id, product_name, department, aisle
 FROM ic_products prod
@@ -78,8 +78,8 @@ limit 10;
 |21903	|Organic Baby Spinach|	produce|	packaged vegetables fruits| 9784 |
 |47626	|Large Lemon|	produce|	fresh fruits| 8135|
 
-5. Which product is the most ordered in Q2?
-6. Which product has the most reorder in Q3?
+4. Which product is the most ordered in Q2?
+5. Which product has the most reorder in Q3?
 
 ```sql
 SELECT curr.product_id, product_name, department, aisle, sum(reordered) AS sum_reordered
@@ -106,12 +106,12 @@ LIMIT 5;
 
 
 
-7. Which product has the most reorder in Q2?
+6. Which product has the most reorder in Q2?
 
-8. Total number of product with no reorder in Q3 for each department
-9. Total number of product with no reorder in Q2 for each department
+7. Total number of product with no reorder in Q3 for each department
+8. Total number of product with no reorder in Q2 for each department
 
     
-14. Which aisle has the highest order?
-15. For each department, which product is the most ordered?
-16. For each department, which product is the least ordered?
+9. Which aisle has the highest order?
+10. For each department, which product is the most ordered?
+11. For each department, which product is the least ordered?
