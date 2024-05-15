@@ -112,6 +112,14 @@ LIMIT 5;
 8. Total number of product with no reorder in Q2 for each department
 
     
-9. Which aisle has the highest order?
-10. For each department, which product is the most ordered?
-11. For each department, which product is the least ordered?
+9. Which department has the highest order?
+```sql
+SELECT department FROM order_products_current curr
+JOIN products prod
+  ON curr.product_id = prod.product_id
+JOIN departments dept
+  ON prod.deparment_id = dept.department_id
+ORDER BY count(1) DESC
+```
+11. For each department, which product is the most ordered?
+12. For each department, which product is the least ordered?
