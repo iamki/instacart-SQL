@@ -19,12 +19,14 @@ We have 5 tables in the Instacart market data.
 ## Table of Contents
 These are the steps where I indulge myself into the data.
 
-1. [Data Prepartion](queries/import-data.sql)
-Practising on creating database using MySQL Workbench.
+1. [Data Import](queries/import-data.sql)
+Practicing on creating database using MySQL Workbench.
+>[!NOTE]
+>I figured out that the data is too big for my laptop. Therefore, I've run the analysis afterwards in Kaggle using [pandasql](https://pypi.org/project/pandasql/) python package which allows you to query pandas DataFrames using SQL syntax.
 2. [Overview of the tables](queries/exploring.sql)
 In this step, I just want to explore each tables and just to get the idea of the tables.
-3. [Data Exploring](analysis.md)
-To build the problem statement, let's first understand and compare the two quarters, applying descriptive statistics.
+3. [Data Analysis](analysis.md)
+To build the problem statement, let's understand and compare the two quarters by applying descriptive statistics.
 
 
 
